@@ -32,7 +32,7 @@ const Table = () => {
             {
                 data.map((element) => {
                     return (
-                        <div key={element.id} className='shadow-lg shadow-slate-500 w-[300px] h-[auto] pt-[20px] pb-[20px] border-[1px] border-[solid] border-[#dfdfdf] rounded flex flex-col gap-[10px] items-center justify-center'>
+                        <div key={element.id} className='shadow-lg shadow-slate-500 w-[300px] h-[auto] bg-[white] pt-[20px] pb-[20px] border-[1px] border-[solid] border-[#dfdfdf] rounded flex flex-col gap-[10px] items-center justify-center'>
                             <img className='w-[80px] h-[80px] rounded-[50%]' src={element.image} alt="" />
                             <div className='flex flex-col gap-[5px] items-center'>
                             <h1>{element.name}</h1>
